@@ -4,9 +4,9 @@ Script um alle eure Sonoff Geräte mit Tasmota Firmware auf einmal zu aktualisie
 ![screenshot](final.JPG)
 
 # Vor- und Nachteile
-+ Funktioniert ohne Internet
-+ klein und schlank
-o kann nur Updaten; nicht mehr
+- Funktioniert ohne Internet
+- klein und schlank
+- kann nur Updaten; nicht mehr
 - Python benötigt
 
 # Voraussetzungen
