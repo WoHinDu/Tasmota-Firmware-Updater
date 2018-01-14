@@ -2,13 +2,8 @@
   "credentials": [
     {
       "host": "192.168.178.40",
-      "user": "admin",
-      "password": "password"
-    },
-    {
-      "host": "192.168.178.41",
-      "user": "admin",
-      "password": "password2"
+      "user": "KE6FdyR3J2",
+      "password": "7iP4ngrxhhaBttxXbyhq4fSgkdcfBi"
     }
   ]
 }
