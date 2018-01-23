@@ -44,10 +44,10 @@ def getStatus(credential):
 			r = requests.get(host, params=payload)
 			return r.json()
 		except:
-			pass
-			#print("Could not establish a connection to the device. Retry.")
+			print("Something went wrong with device %s. Retry. Attempt %s/5" % (credential["host"], attempt))
 	else:
-		print("Something went wrong with device %s" % credential["host"])
+		print("Something went completely wrong with device %s" % credential["host"])
+		print("It was not possible to etablish a connection to the device. Please check the settings.json and your firewall.")
 		return False
 
 
@@ -70,7 +70,7 @@ def sendUpdate(host, firmware):
 		try:
 			r = requests.post(url, files=files)
 		except:
-			print("Could not establish a connection to the device. Retry.")
+			print("Something went wrong with device %s. Retry. Attempt %s/5" % (host, attempt))
 		else:
 			break
 	else:
