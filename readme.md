@@ -18,3 +18,10 @@ Script um alle eure Sonoff Geräte mit Tasmota Firmware auf einmal zu aktualisie
 - settings.json öffnen und eure Zugangsdaten für jedes Gerät eingeben
 - In den selben Ordner kopiert ihr eure Firmwares und benennt diese nach "firmware.bin" und "firmware-minimal.bin" um
 - Datei "upgrade.py" ausführen und den Anweisungen folgen
+
+# Instructions
+
+- Install dependencies: "pip install requests"
+- Edit settings.json; Enter your credentials for every firmware
+- Copy into the same folder the firmware files and rename the files to "firmware.bin" and "firmware-minimal.bin"
+- Execute "upgrade.py" and follow the instructions
