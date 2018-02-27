@@ -1,3 +1,6 @@
+# releases
+*.zip
+
 # Firmwares
 *.bin
 backup
